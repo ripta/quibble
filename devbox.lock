@@ -1,4 +1,25 @@
 {
   "lockfile_version": "1",
-  "packages": {}
+  "packages": {
+    "qbe@latest": {
+      "last_modified": "2024-01-27T14:55:31Z",
+      "resolved": "github:NixOS/nixpkgs/160b762eda6d139ac10ae081f8f78d640dd523eb#qbe",
+      "source": "devbox-search",
+      "version": "1.1",
+      "systems": {
+        "aarch64-darwin": {
+          "store_path": "/nix/store/8wh95grnd0x5pn6axpzqn19yfxgwszrm-qbe-1.1"
+        },
+        "aarch64-linux": {
+          "store_path": "/nix/store/8yvgg2wh6v7ybx63y2ynbrw20jw4gmnp-qbe-1.1"
+        },
+        "x86_64-darwin": {
+          "store_path": "/nix/store/9wjajlvwsqla02sp1z4mrj8hvp09i3zr-qbe-1.1"
+        },
+        "x86_64-linux": {
+          "store_path": "/nix/store/rf6prbgj0bky5vp3ldnqxx4b3g0djqad-qbe-1.1"
+        }
+      }
+    }
+  }
 }
