@@ -8,3 +8,6 @@ all: $(OUTFILES)
 
 %.out: %.s
 	$(CC) -o $@ $<
+
+image:
+	docker build -t ripta/quibble .
